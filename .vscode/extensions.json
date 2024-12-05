@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "amatiasq.sort-imports",
+    "dbaeumer.vscode-eslint",
+    "github.vscode-github-actions",
+    "humao.rest-client",
+    "leodevbro.blockman",
+    "mikestead.dotenv",
+    "Orta.vscode-jest",
+    "redhat.vscode-yaml",
+    "usernamehw.errorlens",
+    "visualstudioexptteam.vscodeintellicode-completions",
+    "visualstudioexptteam.vscodeintellicode",
+    "vsls-contrib.codetour",
+    "xabikos.javascriptsnippets",
+    "yoavbls.pretty-ts-errors",
+    "esbenp.prettier-vscode"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "cSpell.words": [],
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "search.exclude": {
+    "package-lock.json": true,
+    "pnpm-lock.yaml": true
+  },
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": [
+    "source.sortImports",
+    "source.addMissingImports",
+    "source.fixAll.eslint"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib", // Use the workspace version of TypeScript
+  "typescript.PromptUseWorkspaceTsdk": true, // For security reasons it's require that users opt into using the workspace version of typescript
+  "typescript.preferences.preferTypeOnlyAutoImports": true, // Prefer type-only imports
+  "jest.runMode": {
+    "type": "on-save",
+    "testFileOnly": true,
+    "coverage": true
+  }, // Configure Jest extension
+  // Multiple language settings for json and jsonc files
+  "[json][jsonc][yaml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.ignorePath": ".gitignore", // Don't run prettier for files listed in .gitignore
+  "i18n-ally.keystyle": "nested",
+  "files.associations": {
+    "*.env": "dotenv"
+  },
+  "[dotenv]": {
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false
+  },
+  "prettier.singleQuote": true,
+  "prettier.endOfLine": "auto"
+}
